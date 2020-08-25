@@ -32,7 +32,7 @@ namespace MyFirstGitHubClassRoomConsoleApp
             }
 
             Panzerkampfwagen tiger1 = new Panzerkampfwagen("Tiger 1");
-            Console.WriteLine("tiger1.Name goes tiger1.Sound");
+            Console.WriteLine($"{tiger1.Name} goes {tiger1.Sound}");
             Console.ReadKey();
         }
     }
